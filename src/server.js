@@ -1,11 +1,9 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const app = express();
+const http = require('http')
+const mongoose = require('mongoose')
+const app = require('./routes/index.js')
 
-const port = process.env.PORT || 3000;
-
-app.use('/', require('./routes')(express));
+app.set('port', process.env.PORT || 3000);
 
 const server = app.listen(app.get('port'), () => {
-  console.log('Server active on port: ', port);
-});
+  console.log(`Running on port ${server.address().port}`)
+})

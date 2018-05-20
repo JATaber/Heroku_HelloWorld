@@ -2,7 +2,7 @@ module.exports = (express) => {
   const router = express.Router();
 
   router.get('/', (req, res) => {
-    res.send('<h1>Hello from Heroku!</h1>');
+    res.send('Hello from Heroku!');
   });
 
   router.post('/echo', (req, res) => {
