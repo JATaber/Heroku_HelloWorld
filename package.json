@@ -1,0 +1,24 @@
+{
+  "name": "heroku_helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JATaber/Heroku_HelloWorld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JATaber/Heroku_HelloWorld/issues"
+  },
+  "homepage": "https://github.com/JATaber/Heroku_HelloWorld#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-validator": "^5.2.0",
+    "mongoose": "^5.1.1"
+  }
+}
